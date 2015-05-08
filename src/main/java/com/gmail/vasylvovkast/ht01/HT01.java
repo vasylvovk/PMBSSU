@@ -10,7 +10,7 @@ public class HT01
 {
     public static void main( String... args )
     {
-        int N = Integer.decode(args[0]);
+        int N = 10;
         int odd = 1;
         while (odd <= N) {
             System.out.print(odd + "\t");
